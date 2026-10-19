@@ -84,3 +84,47 @@
   .app .ls-inbox-scroll .bubbles { scrollbar-width: thin; }
   .app .ls-inbox-scroll .bubbles::-webkit-scrollbar { width: 7px; }
 }
+
+/* Corrigir rolagem das conversas */
+.inbox.ls-inbox-scroll {
+  height: calc(100dvh - 195px) !important;
+  min-height: 400px;
+  overflow: hidden !important;
+}
+
+.inbox.ls-inbox-scroll .chat {
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+.inbox.ls-inbox-scroll .bubbles {
+  flex: 1 1 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow-y: scroll !important;
+  scrollbar-width: auto !important;
+  scrollbar-color: #64748b #e2e8f0 !important;
+}
+
+.inbox.ls-inbox-scroll .bubbles::-webkit-scrollbar {
+  width: 12px;
+}
+
+.inbox.ls-inbox-scroll .bubbles::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border-radius: 10px;
+}
+
+.inbox.ls-inbox-scroll .bubbles::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
+@media (max-width: 900px) {
+  .inbox.ls-inbox-scroll {
+    height: auto !important;
+  }
+
+  .inbox.ls-inbox-scroll .chat {
+    height: 65dvh !important;
+  }
+}
