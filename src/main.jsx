@@ -32,46 +32,4 @@ function App(){
  {newLead&&<div className="overlay"><form className="modal" onSubmit={createLead}><h2>Novo lead</h2><label>Nome</label><input required value={form.name} onChange={e=>setForm({...form,name:e.target.value})}/><label>WhatsApp com DDD</label><input required value={form.phone} onChange={e=>setForm({...form,phone:e.target.value})}/><div className="actions"><button type="button" className="secondary" onClick={()=>setNewLead(false)}>Cancelar</button><button>Salvar</button></div></form></div>}</div>;
 }
 createRoot(document.getElementById('root')).render(<App/>);
-/* Corrigir rolagem das conversas */
-.inbox.ls-inbox-scroll {
-  height: calc(100dvh - 195px) !important;
-  min-height: 400px;
-  overflow: hidden !important;
-}
 
-.inbox.ls-inbox-scroll .chat {
-  min-height: 0 !important;
-  overflow: hidden !important;
-}
-
-.inbox.ls-inbox-scroll .bubbles {
-  flex: 1 1 0 !important;
-  height: 0 !important;
-  min-height: 0 !important;
-  overflow-y: scroll !important;
-  scrollbar-width: auto !important;
-  scrollbar-color: #64748b #e2e8f0 !important;
-}
-
-.inbox.ls-inbox-scroll .bubbles::-webkit-scrollbar {
-  width: 12px;
-}
-
-.inbox.ls-inbox-scroll .bubbles::-webkit-scrollbar-thumb {
-  background: #64748b;
-  border-radius: 10px;
-}
-
-.inbox.ls-inbox-scroll .bubbles::-webkit-scrollbar-track {
-  background: #e2e8f0;
-}
-
-@media (max-width: 900px) {
-  .inbox.ls-inbox-scroll {
-    height: auto !important;
-  }
-
-  .inbox.ls-inbox-scroll .chat {
-    height: 65dvh !important;
-  }
-}
