@@ -1,1 +1,86 @@
 *{box-sizing:border-box}body{margin:0;font:14px Inter,system-ui,-apple-system,'Segoe UI',sans-serif;background:#f5f7fb;color:#1d2940}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0}button:disabled{opacity:.55}button:not(.secondary){background:#2563eb;color:white}button:hover{filter:brightness(.97)}input,select,textarea{border:1px solid #d9e2ed;border-radius:9px;padding:10px;background:white;color:#1d2940}h1{margin:0;font-size:24px}h2{margin:0 0 18px;font-size:17px}p{line-height:1.45}.muted,small{color:#7b889b}.app{min-height:100vh;display:flex}aside{width:230px;background:#101a2d;color:#edf3ff;display:flex;flex-direction:column;flex-shrink:0;padding:22px 13px}.brand{display:flex;gap:11px;align-items:center;padding:0 10px 32px}.brandicon{display:grid;place-items:center;background:#2563eb;color:white;width:37px;height:37px;border-radius:11px;font-weight:900}.brand small,.chatheader small,.contact small{display:block;font-size:11px;margin-top:3px}.navigation{display:grid;gap:5px}.navigation button,.asidebottom button{background:transparent!important;color:#a8b9d1!important;display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:13px;border-radius:10px}.navigation button.on{background:#263c5d!important;color:white!important}.asidebottom{margin-top:auto}main{min-width:0;flex:1;padding:30px;overflow:hidden}header{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px;gap:15px}header p{margin:5px 0 0;color:#8290a1}.actions{display:flex;gap:10px}.actions button,.details button,.compose button,.small{padding:10px 14px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;gap:8px}.secondary{background:#fff!important;color:#354969!important;border:1px solid #dce4ee!important}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.metric,.panel{background:white;border:1px solid #e8edf4;border-radius:13px;padding:20px;box-shadow:0 1px 4px #1b2d4510}.metric small{display:block;margin-bottom:13px;font-size:13px}.metric strong{display:block;font-size:32px}.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:16px;margin:20px 0}.funnelrow{display:flex;align-items:center;gap:13px;margin:16px 0}.funnelrow span{width:125px;font-size:12px}.funnelrow b{width:25px;text-align:right}.track{flex:1;height:9px;border-radius:10px;background:#eaf0f7;overflow:hidden}.track div{height:100%;background:#3475ee;border-radius:10px}.priority{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid #edf0f5}.priority small{display:block;margin-top:4px}.mini{grid-template-columns:repeat(3,1fr)}.mini div{display:flex;flex-direction:column;gap:8px}.mini strong{font-size:22px}.inbox{display:grid;grid-template-columns:240px minmax(280px,1fr) 220px;background:white;border:1px solid #e3e9f1;border-radius:12px;height:calc(100vh - 135px);overflow:hidden}.inboxleft{border-right:1px solid #e3e9f1;overflow-y:auto}.inboxsearch{display:flex;align-items:center;padding:12px;border-bottom:1px solid #e5e9f0;gap:4px}.inboxsearch input{width:100%;border:0;outline:0}.contact{display:block;width:100%;padding:14px;text-align:left;background:white!important;color:#2c3b52!important;border-bottom:1px solid #eef0f5}.contact.selected{background:#eff5ff!important}.chat{display:flex;flex-direction:column;min-width:0;background:#f7f9fc}.chatheader{padding:16px;background:white;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e3e9f1;gap:8px}.bubbles{flex:1;overflow:auto;display:flex;flex-direction:column;gap:12px;padding:20px}.bubble{padding:12px 14px;border-radius:13px;background:white;max-width:80%;align-self:flex-start;box-shadow:0 1px 3px #0001;white-space:pre-wrap;overflow-wrap:anywhere}.bubble.out{background:#dcfce7;align-self:flex-end}.bubble small{display:block;text-align:right;font-size:10px;margin-top:5px}.compose{padding:12px;display:flex;gap:10px;background:white}.compose input{flex:1;min-width:0}.details{border-left:1px solid #e4e9f1;padding:18px;overflow:auto}.details p{font-size:13px}.details textarea{width:100%;min-height:100px;margin:10px 0}.details button{width:100%;margin:5px 0}.empty{margin:auto;color:#8491a4}.kanban{display:flex;gap:14px;overflow-x:auto;padding-bottom:20px}.kanbancol{flex:0 0 245px;background:#eef2f8;border-radius:12px;min-height:350px;padding:12px}.kanbancol h3{display:flex;justify-content:space-between;font-size:14px}.kanbancol h3 span{background:white;padding:2px 8px;border-radius:10px}.kanbancol article{display:flex;flex-direction:column;gap:10px;background:white;margin:10px 0;padding:13px;border-radius:10px}.kanbancol small{font-size:11px}.small{font-size:12px;padding:7px 10px!important}table{border-collapse:collapse;width:100%;text-align:left;min-width:650px}th,td{padding:13px 8px;border-bottom:1px solid #e7edf4}th{font-size:12px;color:#7a8ba0}.panel{overflow-x:auto}.pill{border-radius:30px;padding:5px 10px;background:#e8f5ee}.warning,.warn{color:#a12d2d;background:#fff0f0;padding:10px 15px;border-radius:9px;margin-bottom:12px}.login{min-height:100vh;display:grid;place-items:center;background:#101a2d;padding:30px}.login form{width:min(390px,100%);display:grid;gap:14px;background:white;padding:32px;border-radius:15px}.login button{padding:13px;border-radius:9px}.overlay{position:fixed;inset:0;background:#101a2d88;display:grid;place-items:center}.modal{background:white;padding:28px;border-radius:13px;display:grid;gap:12px;min-width:min(350px,90vw)}@media(max-width:1000px){aside{width:190px}.inbox{grid-template-columns:210px 1fr}.details{display:none}.metrics{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.app{display:block}aside{width:100%;padding:10px}.brand{padding:4px}.navigation{display:flex;overflow:auto}.navigation button{width:auto;white-space:nowrap;font-size:12px}.asidebottom{display:none}main{padding:14px}header{flex-wrap:wrap}.twocol,.metrics{grid-template-columns:1fr 1fr}.inbox{height:72vh;grid-template-columns:38% 62%}.inboxsearch{padding:4px}.contact{padding:9px;font-size:12px}.chatheader{padding:8px;flex-wrap:wrap}.bubble{max-width:95%}}
+/* LS CRM — rolagem de conversas e layout adaptável.
+   Acrescente ao FINAL do src/style.css existente, sem substituir o original. */
+
+/* Mantém os três painéis dentro da viewport no computador. */
+.app main { min-width: 0; }
+.app .ls-inbox-scroll {
+  height: calc(100dvh - 195px);
+  min-height: 440px;
+  max-height: 900px;
+  overflow: hidden;
+  align-items: stretch;
+}
+.app .ls-inbox-scroll .inboxleft,
+.app .ls-inbox-scroll .chat,
+.app .ls-inbox-scroll .details { min-width: 0; min-height: 0; }
+.app .ls-inbox-scroll .inboxleft {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.app .ls-inbox-scroll .chat {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.app .ls-inbox-scroll .chatheader,
+.app .ls-inbox-scroll .compose { flex: 0 0 auto; }
+.app .ls-inbox-scroll .bubbles {
+  flex: 1 1 0;
+  min-height: 0;
+  height: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overscroll-behavior-y: contain;
+  scrollbar-width: auto;
+  scrollbar-color: #94a3b8 #e9eef5;
+  -webkit-overflow-scrolling: touch;
+}
+.app .ls-inbox-scroll .bubbles::-webkit-scrollbar { width: 11px; }
+.app .ls-inbox-scroll .bubbles::-webkit-scrollbar-track { background: #e9eef5; }
+.app .ls-inbox-scroll .bubbles::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border: 2px solid #e9eef5;
+  border-radius: 999px;
+}
+.app .ls-inbox-scroll .bubbles::-webkit-scrollbar-thumb:hover { background: #64748b; }
+.app .ls-inbox-scroll .details { overflow-y: auto; }
+
+/* Telefone e tablet: não esconder contatos nem detalhes; organizar em blocos. */
+@media (max-width: 900px) {
+  .app .ls-inbox-scroll {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-height: none;
+    min-height: 0;
+    overflow: visible;
+  }
+  .app .ls-inbox-scroll .inboxleft {
+    width: 100%;
+    flex: none;
+    max-height: 212px;
+    overflow-y: auto;
+    border-right: 0;
+  }
+  .app .ls-inbox-scroll .chat {
+    width: 100%;
+    flex: none;
+    height: min(66dvh, 680px);
+    min-height: 360px;
+    border-left: 0;
+    border-right: 0;
+  }
+  .app .ls-inbox-scroll .details {
+    width: 100%;
+    flex: none;
+    max-height: none;
+    overflow: visible;
+  }
+  .app .ls-inbox-scroll .compose input { min-width: 0; }
+}
+@media (max-width: 480px) {
+  .app .ls-inbox-scroll .chat { height: 60dvh; min-height: 340px; }
+  .app .ls-inbox-scroll .bubbles { scrollbar-width: thin; }
+  .app .ls-inbox-scroll .bubbles::-webkit-scrollbar { width: 7px; }
+}
